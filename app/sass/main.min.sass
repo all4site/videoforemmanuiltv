@@ -1,0 +1,45 @@
+@import fonts
+@import base
+@import vars
+
+.etwrapper
+	grid-template-columns: minmax(320px, 1280px)
+	justify-content: center
+	background: url("../img/img1.jpg")
+	background-position: center
+	background-size: cover
+	position: relative
+	color: $white
+
+	.etcontent
+		grid-template-columns: 400px 1fr
+		grid-column-gap: 20px
+
+		h1
+			grid-column: span 2
+			text-align: center
+			margin-top: 20px
+			color: $black
+
+		.videologo
+			grid-column: 1
+
+		.videofile
+			grid-column: 2
+
+		.text
+			grid-column: span 2
+			margin-top: 50px
+
+		.videosmalllogo
+			grid-column: span 2
+			grid-template-columns: repeat(3, 1fr)
+			grid-column-gap: 20px
+			margin-top: 50px
+			margin-bottom: 50px
+
+			.materialboxed
+				cursor: pointer
+
+// ADAPTIVE
+@import media

@@ -1,0 +1,24 @@
+{
+  "name": "bower",
+  "description": "bower",
+  "main": "index.js",
+  "authors": [
+    "Kirill"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "all4site-fontawesome": "^0.0.1",
+    "materialize": "^0.100.2",
+    "animate.css": "^3.5.2",
+    "all4site-ulkit": "^0.0.1"
+  }
+}

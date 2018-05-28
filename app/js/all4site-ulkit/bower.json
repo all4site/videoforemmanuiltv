@@ -1,0 +1,10 @@
+{ 
+    "name": "all4site-ulkit", 
+    "version": "0.0.1", 
+    "main": [
+      "dist/css/uikit.css",
+      "dist/js/uikit.js",
+      "dist/js/uikit-icons.js"
+    ]
+      
+} 
